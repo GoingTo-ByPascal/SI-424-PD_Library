@@ -4,7 +4,9 @@ using System.Text;
 
 namespace GoingTo_Library
 {
-    class PlanUsers
+    public interface IState<T>
     {
+        void Past(T trip);
+        void Future(T trip);
     }
 }
