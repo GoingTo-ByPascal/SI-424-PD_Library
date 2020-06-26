@@ -3,6 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>GoingTo_Library</RootNamespace>
+    <Company>GoingTo</Company>
+    <Authors>GoingTo-Developers</Authors>
+    <PackageId>GoingTo.PatternsBased.Library</PackageId>
+    <Description>Uso del patrón state</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/GoingTo-ByPascal/SI-424-PD_Library</RepositoryUrl>
+    <PackageTags>State</PackageTags>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 
 </Project>
