@@ -4,7 +4,7 @@ using System.Text;
 
 namespace GoingTo_Library
 {
-    class City
+    public class City
     {
         public int Id { get; set; }
         public string Name { get; set; }
@@ -12,5 +12,6 @@ namespace GoingTo_Library
         public int CountryId { get; set; }
         public Locatable Locatable { get; set; }
         public int LocatableId { get; set; }
+        public List<Place> Places = new List<Place>() { };
     }
 }

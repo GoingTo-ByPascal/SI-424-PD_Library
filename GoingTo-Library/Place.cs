@@ -4,7 +4,7 @@ using System.Text;
 
 namespace GoingTo_Library
 {
-    class Place
+    public class Place
     {
         public int Id { get; set; }
         public string Name { get; set; }
