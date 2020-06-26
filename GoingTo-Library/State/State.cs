@@ -4,10 +4,9 @@ using System.Text;
 
 namespace GoingTo_Library
 {
-  public class Plan
+    public interface IState<T>
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
+        void Past(T trip);
+        void Future(T trip);
     }
-
 }
