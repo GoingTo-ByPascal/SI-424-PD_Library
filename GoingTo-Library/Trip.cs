@@ -5,7 +5,7 @@ using System.Text;
 
 namespace GoingTo_Library
 {
-    class Trips
+    class Trip
     {
         public int Id { get; set; }
         public Locatable Locatable { get; set; }
