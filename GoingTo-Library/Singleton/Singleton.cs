@@ -1,14 +1,15 @@
 ﻿using System;
 namespace GoingTo_Library.Singleton
 {
-    public class Singleton<T>
+    public class Singleton<T> : ISingleton<T>
     {
         private static Singleton<T> instance;
         private Singleton()
         {
             instance = null;
         }
-        public static Singleton<T> getInstance()
+
+        public Singleton<T> GetInstance()
         {
             if (instance == null)
             {

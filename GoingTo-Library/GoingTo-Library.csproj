@@ -11,6 +11,7 @@
     <RepositoryUrl>https://github.com/GoingTo-ByPascal/SI-424-PD_Library</RepositoryUrl>
     <PackageTags>State</PackageTags>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageVersion>2.0</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>
