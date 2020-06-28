@@ -13,4 +13,8 @@
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Façade\" />
+    <Folder Include="Façade\Interface\" />
+  </ItemGroup>
 </Project>
