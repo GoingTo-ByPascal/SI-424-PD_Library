@@ -16,5 +16,6 @@
   <ItemGroup>
     <Folder Include="Façade\" />
     <Folder Include="Façade\Interface\" />
+    <Folder Include="Singleton\" />
   </ItemGroup>
 </Project>
