@@ -12,7 +12,7 @@
     <PackageTags>State</PackageTags>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageVersion>2.0</PackageVersion>
-    <Version>3.0.0</Version>
+    <Version>2.1.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
